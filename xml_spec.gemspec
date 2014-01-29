@@ -1,0 +1,23 @@
+# coding: utf-8
+lib = File.expand_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require 'xml_spec/version'
+
+Gem::Specification.new do |spec|
+  spec.name          = "xml_spec"
+  spec.version       = XmlSpec::VERSION
+  spec.authors       = ["C. Jason Harrelson"]
+  spec.email         = ["jason@lookforwardenterprises.com"]
+  spec.summary       = %q{XML matchers for specs.}
+  spec.description   = %q{XML matchers for specs.  See README for more info.}
+  spec.homepage      = ""
+  spec.license       = "MIT"
+
+  spec.files         = `git ls-files`.split($/)
+  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.require_paths = ["lib"]
+
+  spec.add_development_dependency "bundler", "~> 1.5"
+  spec.add_development_dependency "rake"
+end
