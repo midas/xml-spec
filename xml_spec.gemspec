@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jason@lookforwardenterprises.com"]
   spec.summary       = %q{XML matchers for specs.}
   spec.description   = %q{XML matchers for specs.  See README for more info.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/midas/xml_spec"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
