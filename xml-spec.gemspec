@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'xml_spec/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "xml_spec"
+  spec.name          = "xml-spec"
   spec.version       = XmlSpec::VERSION
   spec.authors       = ["C. Jason Harrelson"]
   spec.email         = ["jason@lookforwardenterprises.com"]
