@@ -1,7 +1,8 @@
 # XmlSpec
 
-XML matchers for specs.
+XML matchers for RSpec and Cucumber.
 
+#### This is alpha software and is not yet ready for primte-time.
 
 ## Installation
 
