@@ -1,1 +1,1 @@
-require 'xml-spec'
+require 'xml_spec'
