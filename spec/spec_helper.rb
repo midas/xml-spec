@@ -1,9 +1,11 @@
 require "xml_spec"
 
 RSpec.configure do |config|
-  #config.before do
-    #XmlSpec.reset
-  #end
+
+  config.before do
+    XmlSpec.reset
+  end
+
 end
 
 def files_path

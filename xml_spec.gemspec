@@ -18,10 +18,15 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "multi_json", "~> 1.0"
-  spec.add_dependency "rspec", "~> 2.0"
+  #spec.add_dependency "multi_json", "~> 1.0"
+  spec.add_dependency "activesupport", ">= 3"
+  spec.add_dependency "builder", ">= 3"
+  spec.add_dependency "equivalent-xml"
+  spec.add_dependency "nokogiri", "~> 1"
+  spec.add_dependency "nori", "~> 2"
+  spec.add_dependency "rspec", "~> 2"
 
-  spec.add_development_dependency "bundler", "~> 1.0"
+  spec.add_development_dependency "bundler", "~> 1"
   spec.add_development_dependency "guard-rspec"
   spec.add_development_dependency "rake"
 end
